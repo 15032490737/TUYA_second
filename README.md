@@ -1,2 +1,10 @@
-# TUYA_second
-涂鸦第二期训练营
+立创&涂鸦训练营第二期--物联网温湿度传感器
+==
+This project is developed using Tuya SDK, which enables you to quickly develop branded
+apps connecting and controlling smart scenarios of many devices.
+For more information, please check Tuya Developer Website.
+---
+# 小项目的主要内容
+本次工程是一个基于涂鸦智能的温湿度传感器，采用低代码 MCU 方案，即将涂鸦物联网模块与ST32F0单片机结合起来使用的方法，实现温湿度数据的采集和上报，将数据可视化。
+* 小工程整体较为简单，
+##
