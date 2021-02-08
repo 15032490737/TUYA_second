@@ -1,7 +1,6 @@
 立创&涂鸦训练营第二期--物联网温湿度传感器
 ==
-基于涂鸦智能的小温湿度传感器，可自动采集当前温湿度数据，并通过STM32 & wifi模块上传至云端，送至手机APP端显示
---
+## 基于涂鸦智能的小温湿度传感器，可自动采集当前温湿度数据，并通过STM32 & wifi模块上传至云端，送至手机APP端显示
 * This project is developed using Tuya SDK, which enables you to quickly develop branded
 apps connecting and controlling smart scenarios of many devices.
 For more information, please check Tuya Developer Website.
