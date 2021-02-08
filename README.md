@@ -25,4 +25,4 @@ For more information, please check Tuya Developer Website.
 * OLED模块：模块电路较为简单，包含一路LDO电路以及必要的阻容元件，使用IIC和STM32通讯，供电电压可使用5V或3.3V。
 * 按键：PCB共包含3个侧贴按键，下方控制整体的开关，上方两个按键，左方按键可控制OLED是否显示，右方按键为手动按键，按下则立即测量当前温湿度并且进行显示和dp上传。
 ### 程序部分
-* 得益于涂鸦的优良设计，只需要少量代码开发，官方具体介绍请看
+* 得益于涂鸦的优良设计，只需要少量代码开发，官方具体介绍请看[MCU SDK 移植](https://developer.tuya.com/cn/docs/iot/device-development/embedded-software-development/mcu-development-access/wifi-mcu-sdk-solution/overview-of-migrating-tuyas-mcu-sdk?id=K9hhi0xr5vll9)
