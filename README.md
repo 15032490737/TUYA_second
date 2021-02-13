@@ -31,7 +31,7 @@ For more information, please check Tuya Developer Website.
 * 这次的程序思路较为清晰，创建F0工程后，按照教程将从涂鸦下载的MCU SDK移植到工程中，然后添加SHT20驱动，OLED驱动，按键程序以及控制开关机的程序。
 * STM32 将各个模块初始化后，开机，进入while(1),利用按键触发配网，配网成功后，用SHT20采集数据，并将采集的数据上报，核心的程序为
 
-```
+```C
     // SDK函数
          wifi_uart_service(); 
     // 温湿度采集
@@ -50,7 +50,7 @@ For more information, please check Tuya Developer Website.
 * 使用锂电池供电时，由于板子本身没有电池管理芯片，所以要选择带有放电保护板的锂电池，而且电池不宜长期使用，当电压不足时，应该及时充电。
 * 关于OLED显示模块，使用常见的即可，这里是为了好看才又按照下板的尺寸做了一块驱动，计划使用的是1.3寸OLED裸屏，这里原理图直接使用技新的工程，几乎只是更改了整体的尺寸，实际上两个看起来都不错。
 * 程序上，有几处需要注意的地方，例如，如果使用定时器，要注意串口和定时器的中断优先级，移植SDK时的串口发送函数是用的单字节函数等等，需要留心。
-```
+```C
 void USART1_SendByte(unsigned char data)//单字节发送函数
 {	
 	while((USART1-&gt;ISR &amp; USART_FLAG_TXE) != USART_FLAG_TXE);
