@@ -13,6 +13,7 @@ For more information, please check Tuya Developer Website.
 * 注意事项
 * 实际效果
 ### 整体介绍
+* 更加具体的介绍（硬件&软件），请转到[我的立创开源平台](https://oshwhub.com/mimiww/wu-lian-wang-wen-shi-du-zhuan-gan-qi)
 * 本次工程是一个基于涂鸦智能的温湿度传感器，采用低代码 MCU 方案，将涂鸦物联网模块与ST32F0单片机结合使用，实现温湿度数据的采集和上报，并将数据可视化。
 此外，还包含了一键开关机,OLED显示，手动采集等功能。
 * 传感器由两块PCB构成，通过排针排母以及四颗固定柱连接，整体尺寸：56mm*55m*30mm。下层板包含了传感器所需的各种电路，上层是一块OLED模块，可以用来显示当前的温湿度数据或其他内容，另外，可以通过下层的按键来控制OLED熄灭与显示。
